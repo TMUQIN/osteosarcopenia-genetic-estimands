@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the published manuscript and the actual versioned repository archive when available. Licence and release version pending author approval."
+message: "Please cite the associated manuscript and the exact versioned repository release when available. The MIT License applies only to the original source-code/model-syntax files listed in LICENSE_SCOPE.md; datasets and artwork are governed separately."
 title: "Lean-Mass Decomposition Reveals Divergent Genetic Correlation and Covariance Rankings"
 type: software
+license: MIT
 authors:
   - family-names: Qin
     given-names: Dexiang
@@ -23,7 +24,7 @@ authors:
     given-names: Junrui
   - family-names: Ning
     given-names: Guangzhi
-abstract: "Analysis code and selected derived materials supporting a study of phenotype decomposition and the interpretation of genetic correlation versus unstandardized genetic covariance across operational lean-mass phenotypes. This repository is a partial reproducibility release; it does not provide a one-command rerun of the full GWAS-to-LDSC-to-GenomicSEM pipeline."
+abstract: "Analysis code and selected derived materials supporting a study of phenotype decomposition and the interpretation of genetic correlation versus unstandardized genetic covariance across operational lean-mass phenotypes. This repository is a partial reproducibility release; it does not provide a one-command rerun of the full GWAS-to-LDSC-to-GenomicSEM pipeline. The MIT License applies only to the original source-code/model-syntax files enumerated in LICENSE_SCOPE.md."
 keywords:
   - osteosarcopenia
   - lean mass
