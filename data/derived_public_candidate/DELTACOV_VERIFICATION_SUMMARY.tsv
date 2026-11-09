@@ -1,0 +1,3 @@
+side	DeltaCov_g	SE	CI95_low	CI95_high	nominal_P	inference	source_archive_member
+right	-0.0227531793445625	0.0041184950330361	-0.0308254296093133	-0.0146809290798118	3.30172406245033e-08	verification-only refit; full-V robust Delta method; no GWAS/LDSC rerun	independent_delta_cov_results.tsv (controlled historical archive)
+left	-0.0256640494387576	0.00436623749855143	-0.0342218749359184	-0.0171062239415968	4.156520614027e-09	verification-only refit; full-V robust Delta method; no GWAS/LDSC rerun	independent_delta_cov_results.tsv (controlled historical archive)

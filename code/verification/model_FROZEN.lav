@@ -1,0 +1,59 @@
+FFM_total =~ 1*ArmFFM + 1*LegFFM
+FM =~ 1*ArmFM + 1*LegFM
+FFM_total ~ gamma*FM
+FFM_total ~~ 0*FM
+FM ~~ v_fm*FM + c_ma*ALM + c_me*eBMD + c_mfn*FNBMD + c_mls*LSBMD
+FFM_total ~~ v_spec*FFM_total + c_sa*ALM + c_se*eBMD + c_sfn*FNBMD + c_sls*LSBMD
+ALM ~~ v_a*ALM + c_ae*eBMD + c_afn*FNBMD + c_als*LSBMD
+eBMD ~~ v_e*eBMD + c_efn*FNBMD + c_els*LSBMD
+FNBMD ~~ v_fn*FNBMD + c_fnls*LSBMD
+LSBMD ~~ v_ls*LSBMD
+
+var_fm_out := v_fm
+var_specific_out := v_spec
+var_total_out := v_spec + gamma^2*v_fm
+fm_shared_var := gamma^2*v_fm
+var_total_identity_rhs := v_spec + gamma^2*v_fm
+cov_total_fm := gamma*v_fm
+cov_specific_fm := 0*v_fm
+rg_specific_fm := cov_specific_fm/sqrt(v_spec*v_fm)
+gamma_out := gamma
+r2_fm_in_ffm := (gamma^2*v_fm)/(v_spec + gamma^2*v_fm)
+rg_total_fm := gamma*v_fm/sqrt((v_spec + gamma^2*v_fm)*v_fm)
+rg_alm_fm := c_ma/sqrt(v_a*v_fm)
+
+cov_alm_total := c_sa + gamma*c_ma
+cov_alm_specific := c_sa
+cov_alm_fm := c_ma
+rg_alm_total := cov_alm_total/sqrt(v_a*(v_spec + gamma^2*v_fm))
+rg_alm_specific := c_sa/sqrt(v_a*v_spec)
+delta_rg_alm := rg_alm_specific-rg_alm_total
+recovery_fraction := delta_rg_alm/(1-rg_alm_total)
+
+rg_alm_e := c_ae/sqrt(v_a*v_e)
+rg_alm_fn := c_afn/sqrt(v_a*v_fn)
+rg_alm_ls := c_als/sqrt(v_a*v_ls)
+cov_e_total := c_se + gamma*c_me
+cov_e_specific := c_se
+cov_e_fm := c_me
+cov_fn_total := c_sfn + gamma*c_mfn
+cov_fn_specific := c_sfn
+cov_fn_fm := c_mfn
+cov_ls_total := c_sls + gamma*c_mls
+cov_ls_specific := c_sls
+cov_ls_fm := c_mls
+
+rg_total_e := (c_se + gamma*c_me)/sqrt((v_spec + gamma^2*v_fm)*v_e)
+rg_total_fn := (c_sfn + gamma*c_mfn)/sqrt((v_spec + gamma^2*v_fm)*v_fn)
+rg_total_ls := (c_sls + gamma*c_mls)/sqrt((v_spec + gamma^2*v_fm)*v_ls)
+
+rg_specific_e := c_se/sqrt(v_spec*v_e)
+rg_specific_fn := c_sfn/sqrt(v_spec*v_fn)
+rg_specific_ls := c_sls/sqrt(v_spec*v_ls)
+
+shift_e := rg_specific_e-rg_total_e
+shift_fn := rg_specific_fn-rg_total_fn
+shift_ls := rg_specific_ls-rg_total_ls
+sum_shift_e_fn := shift_e+shift_fn
+sum_shift_e_ls := shift_e+shift_ls
+sum_shift_fn_ls := shift_fn+shift_ls

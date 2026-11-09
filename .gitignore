@@ -1,0 +1,23 @@
+# Do not stage local evidence or restricted raw source data
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+*.sumstats*
+*.vcf
+*.vcf.gz
+*.rds
+*.RDS
+*.bam
+*.bgen
+*.bed
+*.bim
+*.fam
+*secrets*
+*credentials*
+*token*
+*.env
+.env.*
+archive/
+reviewer_only/

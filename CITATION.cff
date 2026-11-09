@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the published manuscript and the actual versioned repository archive when available. Licence and release version pending author approval."
+title: "Lean-Mass Decomposition Reveals Divergent Genetic Correlation and Covariance Rankings"
+type: software
+authors:
+  - family-names: Qin
+    given-names: Dexiang
+  - family-names: Zhang
+    given-names: Yue
+  - family-names: Hou
+    given-names: Hebin
+  - family-names: Hu
+    given-names: Zicheng
+  - family-names: Zhang
+    given-names: Qi
+  - family-names: Li
+    given-names: Shouchen
+  - family-names: Zhao
+    given-names: Junhao
+  - family-names: Li
+    given-names: Baicao
+  - family-names: Guo
+    given-names: Junrui
+  - family-names: Ning
+    given-names: Guangzhi
+abstract: "Analysis code and selected derived materials supporting a study of phenotype decomposition and the interpretation of genetic correlation versus unstandardized genetic covariance across operational lean-mass phenotypes. This repository is a partial reproducibility release; it does not provide a one-command rerun of the full GWAS-to-LDSC-to-GenomicSEM pipeline."
+keywords:
+  - osteosarcopenia
+  - lean mass
+  - genetic correlation
+  - genetic covariance
+  - GenomicSEM
+  - body composition
