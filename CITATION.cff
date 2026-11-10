@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript and the exact versioned repository release when available. The MIT License applies only to the original source-code/model-syntax files listed in LICENSE_SCOPE.md; datasets and artwork are governed separately."
+message: "Please cite the associated manuscript and the exact versioned repository release when available. This repository contains materials with file-specific licensing: the root MIT License applies only to the original source-code/model-syntax files listed in LICENSE_SCOPE.md. Derived datasets and artwork are governed separately; consult LICENSE_SCOPE.md and DATA_AVAILABILITY.md before reuse."
 title: "Lean-Mass Decomposition Reveals Divergent Genetic Correlation and Covariance Rankings"
 type: software
-license: MIT
 authors:
   - family-names: Qin
     given-names: Dexiang

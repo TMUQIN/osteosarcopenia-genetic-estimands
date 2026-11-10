@@ -8,6 +8,11 @@ for name in ['MODEL_PARAMETERS_ALL_SCENARIOS.tsv','MODEL_FIT_ALL_SCENARIOS.tsv']
  r=read(name);assert r and set(x['scenario'] for x in r)=={'D','R75','R50'},name
  assert not any('V201' in str(x) for x in r),name
  assert all('source_model_rds' not in x for x in r),name
+expected_labels={'D':'Primary specification','R75':'75% assumed-N sensitivity','R50':'50% assumed-N sensitivity'}
+for name in ['MODEL_PARAMETERS_ALL_SCENARIOS.tsv','MODEL_FIT_ALL_SCENARIOS.tsv','FIGURE2_DATA.tsv','FIGURE_S1_DATA.tsv']:
+ r=read(name)
+ for row in r:
+  assert row['scenario_label']==expected_labels[row['scenario']],(name,row['scenario'],row['scenario_label'])
 for r in read('MODEL_FIT_ALL_SCENARIOS.tsv'):
  assert 'AIC' not in r and 'p_chisq' not in r
  assert float(r['df'])==11

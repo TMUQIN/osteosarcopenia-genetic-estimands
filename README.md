@@ -48,6 +48,6 @@ The data and results originate from published GWAS sources cited in the manuscri
 
 ## Licensing
 
-The root `LICENSE` is the MIT License and applies **only** to the six original source-code/model-syntax files enumerated in `LICENSE_SCOPE.md`. It does not license the TSV data, derived statistical summaries, plotting-source tables, submitted artwork, manuscript, supplementary files, or third-party material. Those items remain subject to their own source terms and any separate rights or licence notices. See `LICENSE_SCOPE.md` and `DATA_AVAILABILITY.md` before any redistribution.
+The root `LICENSE` is the MIT License and applies **only** to the six original source-code/model-syntax files enumerated in `LICENSE_SCOPE.md`. It does not license the TSV data, derived statistical summaries, plotting-source tables, submitted artwork, manuscript, supplementary files, or third-party material. Those items remain subject to their own source terms and any separate rights or licence notices. The repository-level `CITATION.cff` intentionally does not declare one global SPDX licence because the repository contains file-specific licensing scopes. See `LICENSE_SCOPE.md` and `DATA_AVAILABILITY.md` before any redistribution.
 
 This is a private staging repository. Do not change its visibility to Public or create a public release until the approved public file set, source/data permissions, and any separate artwork rights have been confirmed and documented.

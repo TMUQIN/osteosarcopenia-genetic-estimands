@@ -26,6 +26,21 @@ for p in ROOT.rglob("*"):
         scanned += 1
         text = p.read_text(encoding="utf-8", errors="ignore")
         assert not absolute_path_pattern.search(text), f"Possible local absolute path in {p.relative_to(ROOT)}"
+
+# Validate the release inventory against the current working tree (excluding itself).
+import csv, hashlib
+inventory_path = ROOT / "PUBLIC_FILE_INVENTORY.tsv"
+with inventory_path.open(encoding="utf-8", newline="") as f:
+    inventory_rows = list(csv.DictReader(f, delimiter="\t"))
+listed = {row["relative_path"]: row for row in inventory_rows}
+actual = {p.relative_to(ROOT).as_posix(): p for p in ROOT.rglob("*") if p.is_file() and p != inventory_path}
+assert set(listed) == set(actual), f"Inventory path mismatch: missing={sorted(set(actual)-set(listed))}; absent={sorted(set(listed)-set(actual))}"
+for rel, path in actual.items():
+    payload = path.read_bytes()
+    row = listed[rel]
+    assert int(row["bytes"]) == len(payload), f"Inventory size mismatch: {rel}"
+    assert row["sha256"] == hashlib.sha256(payload).hexdigest(), f"Inventory SHA-256 mismatch: {rel}"
+
 print("REPOSITORY_HYGIENE_SMOKE_TEST=PASS")
 print(f"required_files={len(required)}")
 print(f"text_files_scanned={scanned}")
