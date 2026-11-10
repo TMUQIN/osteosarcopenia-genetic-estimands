@@ -1,3 +1,3 @@
-# Figure 2 artwork
+# Figure 2 editable artwork
 
-The editable SVG is the paper's Figure 2 submission artwork, not a new statistical analysis. The underlying plotted statistics are presented in the manuscript and supporting tables. Source distribution of the SVG remains conditional on author approval and the applicable rights for derived visualizations.
+The editable SVG is original research artwork corresponding to Figure 2 in the associated manuscript. It is made available under CC BY 4.0 as specified in `LICENSE_SCOPE.md` and `DATA_LICENSE.md`. The SVG is a graphical output, not a rerun of the primary GWAS or GenomicSEM models. Source data and analysis provenance are described in the manuscript and supplementary materials.

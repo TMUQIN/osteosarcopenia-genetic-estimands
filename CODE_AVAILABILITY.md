@@ -1,3 +1,5 @@
-# Code availability — pre-release status
+# Code availability
 
-This repository is a PRIVATE staging candidate and has no published DOI or authorised public URL. After author and source-permission checks, selected scripts and, if lawful, derived data may be released as a versioned GitHub/Zenodo archive. No unrestricted access to the original GWAS, complete S/V/I/N matrices or primary GenomicSEM model objects is implied. Cite only the true, released version after publication.
+This archive provides selected, originally written analysis scripts, GenomicSEM/lavaan model syntax, numerical-verification code, and a Figure 3 plotting script with the associated aggregate plotting source table. The **six specified original code/model-syntax files** are licensed under MIT; derived data and figures follow the separate licence stated in `LICENSE_SCOPE.md` and `DATA_LICENSE.md`.
+
+The included tests verify repository file hygiene and selected derived numerical relationships. They do **not** reproduce the full primary GWAS → LDSC → GenomicSEM analysis. Complete model S/V/I/N inputs, source GWAS/VCF data and original model objects are not distributed. For exact citation, use the tagged GitHub release and its Zenodo version DOI once available.

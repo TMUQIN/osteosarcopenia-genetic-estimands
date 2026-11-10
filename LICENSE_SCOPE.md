@@ -1,30 +1,33 @@
-# Licence scope
+# File-specific licence scope
 
-The MIT License in the repository root applies only to the ten authors' original source-code and model-syntax files listed below. It does not grant rights to third-party material, upstream GWAS data, derived datasets, submitted artwork, or manuscript/supplementary content.
+This repository is a **mixed-licence research archive**. The root `LICENSE` is the MIT License, **not** a licence for the full repository.
 
-## Files covered by the MIT License
+## 1. MIT — original analysis source code and model syntax
 
-| Repository path | Material | Licence |
-|---|---|---|
-| `code/figures/submitted_figure3/draw_figure3.py` | Original Figure 3 plotting script | MIT |
-| `code/release_validate.py` | Original release-content validation script | MIT |
-| `code/smoke_test.py` | Original repository hygiene test | MIT |
-| `code/verification/model_DERIVED.lav` | Original model syntax | MIT |
-| `code/verification/model_FROZEN.lav` | Original model syntax | MIT |
-| `code/verification/verify_v7_independent.R` | Original numerical verification script | MIT |
+Copyright (c) 2026 Dexiang Qin, Yue Zhang, Hebin Hou, Zicheng Hu, Qi Zhang, Shouchen Li, Junhao Zhao, Baicao Li, Junrui Guo, and Guangzhi Ning.
 
-## Materials not covered by this MIT License
+- `code/figures/submitted_figure3/draw_figure3.py`
+- `code/release_validate.py`
+- `code/smoke_test.py`
+- `code/verification/model_DERIVED.lav`
+- `code/verification/model_FROZEN.lav`
+- `code/verification/verify_v7_independent.R`
 
-The MIT License does not apply to:
+See the root [`LICENSE`](LICENSE).
 
-- TSV files, derived statistical summaries, plotting-source tables, or other datasets;
-- EPS, PDF, SVG, PNG, or other figures and artwork;
-- manuscripts, supplementary materials, README files, documentation, metadata, and citation records;
-- third-party libraries, dependencies, copied source materials, or separately licensed content;
-- original GWAS summary statistics, participant-level data, LD reference panels, complete S/V/I/N matrices, model objects, or reviewer-only archives, which are not included in this repository.
+## 2. CC BY 4.0 — author-owned aggregate tables and original artwork
 
-These materials remain subject to their own copyright, source terms, and any separate licence or permission notice. Citation of an upstream GWAS or publication does not by itself grant redistribution rights to its data or other protected materials.
+The authors license the following **originally generated aggregate research outputs** under Creative Commons Attribution 4.0 International (CC BY 4.0):
 
-## Release status
+- `data/derived_public_candidate/*.tsv` (seven derived result tables)
+- `code/figures/submitted_figure3/FIGURE3_PLOT_SOURCE.tsv`
+- `code/figures/submitted_figure3/Fig3.eps`, `Fig3.pdf`, `Fig3.svg`, `Fig3_600dpi.png`
+- `figures/submitted_artwork/Fig2_editable_final_label.svg`
 
-The ten authors have confirmed that they hold the copyright in the original code listed above and that no institutional ownership claim is asserted for those files. This statement is limited to the listed original code. Public release of derived datasets and artwork remains subject to separate source-term and rights review. The repository must remain private until that review is complete and the public release files have been approved.
+This licence is limited to the authors' rights in these derived outputs and original figure artwork. See [`DATA_LICENSE.md`](DATA_LICENSE.md) for attribution and boundaries and the [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+## 3. Other materials and exclusions
+
+Documentation, metadata, citation records and runtime notes are supplied for interpretive context; no MIT code licence is implied for them. Third-party software dependencies remain subject to their own licences. Upstream raw or SNP-level GWAS data, participant-level data, LD reference panels, full LDSC S/V/I/N inputs, primary model objects, and historical reviewer-only archives are **not included**, and the authors do not grant a licence to any third-party materials.
+
+Refer to `DATA_AVAILABILITY.md`, `REPRODUCIBILITY_LIMITATIONS.md`, and the article's source citations before reuse.

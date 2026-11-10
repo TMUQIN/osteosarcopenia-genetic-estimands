@@ -18,7 +18,7 @@ assert not missing, f"Missing required repository files: {missing}"
 for forbidden in ["verify_s9.py", "TABLE_S9", "whole_body_fat_mass.sumstats", "standing_height"]:
     hits = [p.relative_to(ROOT).as_posix() for p in ROOT.rglob("*") if p.is_file() and forbidden.lower() in p.name.lower()]
     assert not hits, f"Forbidden/currently excluded material found: {forbidden}: {hits}"
-absolute_path_pattern = re.compile(r"(?:[A-Za-z]:[\\/]|/mnt/data/|/home/[^ ]+)")
+absolute_path_pattern = re.compile(r"(?<![A-Za-z0-9])(?:[A-Za-z]:[\\/]|/mnt/data/|/home/[^ ]+)")
 scan_ext = {".py", ".R", ".lav", ".md", ".txt", ".cff"}
 scanned = 0
 for p in ROOT.rglob("*"):
