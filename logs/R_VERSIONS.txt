@@ -1,0 +1,10 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed
+2: Setting LC_CTYPE=C.UTF-8 failed
+3: Setting LC_MONETARY=C.UTF-8 failed
+4: Setting LC_TIME=C.UTF-8 failed
+R version 4.4.2 (2024-10-31 ucrt)
+GenomicSEM 0.0.5
+lavaan 0.6.21
+numDeriv 2016.8.1.1
+jsonlite 2.0.0

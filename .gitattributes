@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize repository text to LF so byte-level inventories are portable.
+* text=auto eol=lf

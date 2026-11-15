@@ -1,0 +1,54 @@
+{
+  "status": "PASS_V5_EXCEL_NUMERICAL_CLOSURE",
+  "workbook_sha256": "783861e83479d4feb5a6cf07271c979df010ca6f9edc88f071c56073b17ebcf4",
+  "mapping_sha256": "a02d59b3f1d42f1fd0630088161572dd7b589b80a1f95cabe958438ff13c8602",
+  "worksheet_count": 15,
+  "original_validator_checks": 624,
+  "provided_script_rerun_checks": 798,
+  "independent_decimal_checks": 798,
+  "failures": 0,
+  "by_sheet": {
+    "S2": 78,
+    "S3": 78,
+    "S3b": 42,
+    "S3c": 12,
+    "S4": 500,
+    "S5": 70,
+    "S7": 18
+  },
+  "by_csv": {
+    "composite.csv": 198,
+    "bone_pairwise.csv": 42,
+    "bone_global.csv": 12,
+    "weight_grid.csv": 500,
+    "genetic_sd.csv": 20,
+    "partial_rg.csv": 8,
+    "alm_restrictions.csv": 18
+  },
+  "semantic_mapping_checks": 624,
+  "frozen_numeric_comparisons": 3466,
+  "independent_R_comparisons": 940,
+  "seven_CSV_fresh_output_sha256_equal": true,
+  "input_workbook_unchanged": true,
+  "public_authorization": "AUTHOR_SCOPED_GRANT; SEE_SEPARATE_RELEASE_RIGHTS_GATE",
+  "scope": "All mapped quantitative result components in S2/S3/S3b/S3c/S4/S5 plus six ALM subset diagnostics in S7. Not all cells/inputs in 15 sheets; not upstream GWAS/LDSC or historical fixed/free global S7 tests.",
+  "S7_interpretation": "Observed frozen-covariance necessary-restriction diagnostics, not manifest-composite main-effect estimates or SEM fit statistics. Current primary manifest-composite analysis does not retain a latent factor.",
+  "S3c_interpretation": "Manifest-composite bone-shift W3 joint-zero and W2 equality; separate from S7 necessary-restriction diagnostics.",
+  "verification_date": "2026-11-13",
+  "private_detail_reports_retained": true,
+  "private_inputs_distributed": false,
+  "public_release_authorization": "AUTHOR_SCOPED_GRANT;READY_FOR_REDUCED_SCOPE",
+  "current_public_CSVs": [
+    "weight_grid.csv",
+    "genetic_sd.csv",
+    "partial_rg.csv",
+    "alm_restrictions.csv"
+  ],
+  "current_public_prior_components": 546,
+  "excluded_CSVs": [
+    "data/derived_r2_candidate/composite.csv",
+    "data/derived_r2_candidate/bone_global.csv",
+    "data/derived_r2_candidate/bone_pairwise.csv"
+  ],
+  "scope_note": "Existing PASS describes prior full private audit; excluded study tables are not public. No audit rerun."
+}

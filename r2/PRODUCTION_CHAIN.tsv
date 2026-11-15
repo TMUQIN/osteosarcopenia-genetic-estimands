@@ -1,0 +1,9 @@
+stage	recovered_source	input	evidence	current_task_action
+canonical_preprocessing	v200_public_construct_atlas_20260918/02_code/harmonize_to_bim.py	historical munged sumstats and BIM	historical code, manifests, Pei P0 closure	identity audit only; not rerun
+joint_LDSC	JCSM_N_CORRECTION_V19V/01_code/02_run_joint_ldsc.R	Scenario D canonical inputs	per-side LDSC logs, input manifest, frozen RDS SHA256	not rerun
+historical_fixed_loading	JCSM_N_CORRECTION_V19V/01_code/fit_phase2a_models.FROZEN.R	frozen S/V	historical reference; not R2 main	not fitted and not relabelled
+R2_all_outcomes_bone	R2_INDEPENDENT_WALD_VERIFICATION_20261110/verify_r2.py	binary-double Scenario D S8/V36	verbatim functions plus new keyed comparisons	recomputed using authorized local RDS
+R2_grid_SD_partial	JCSM_R2_FINAL_EVIDENCE_CLOSURE/R2_FINAL_EVIDENCE_CLOSURE.py	binary-double Scenario D S8/V36	verbatim functions, frozen references, independent R	recomputed without models
+R2_independent_R	JCSM_R2_FINAL_EVIDENCE_CLOSURE/R2_VERIFY_GRID_INDEPENDENT.R	same frozen RDS	Richardson derivatives and column-major lower triangle	470 rows recomputed
+submission_table_binding	Author-designated JCSM R2 V5 Supplementary_Tables.xlsx; SHA256 783861e83479d4feb5a6cf07271c979df010ca6f9edc88f071c56073b17ebcf4	S2/S3/S3b/S3c/S4/S5 and six ALM subset diagnostics in S7	624 original-validator scalar cells; 798 components independently checked; exact semantic keys and fresh frozen-RDS outputs	PASS_WITH_EXPLICIT_SCOPE; author-scoped grant recorded; see specific upstream review
+public_v1_baseline	https://github.com/TMUQIN/osteosarcopenia-genetic-estimands	main and v1.0.0 commit 0795a68f5b2b9a4cc914d516fffd89c535370617	verified real clone, canonical Git blob hashes, historical scoped licenses, staged candidate diff	VERIFIED_LOCAL_BRANCH; NO_COMMIT_PUSH_RELEASE_OR_DOI
