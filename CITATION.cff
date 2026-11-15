@@ -23,6 +23,6 @@ authors:
     given-names: Junrui
   - family-names: Ning
     given-names: Guangzhi
-version: "2.0.0-rc.1"
+version: "2.0.0"
 repository-code: "https://github.com/TMUQIN/osteosarcopenia-genetic-estimands"
 abstract: "Recovered downstream R2 manifest-composite functions, paired Delta inference with full V, bone W2/W3 tests, and weight/genetic-scale sensitivity. Study-number reproduction requires controlled frozen inputs. Historical fixed-loading assets are retained separately. File-specific licenses apply."

@@ -2,7 +2,7 @@
   "python": "3.12.10",
   "numpy": "2.4.4",
   "scipy": "1.17.1",
-  "adapters_version": "2.0.0-rc.1",
+  "adapters_version": "2.0.0",
   "release_status": "READY_FOR_R2_RELEASE",
   "R_versions": "logs/R_VERSIONS.txt",
   "original_function_identity": "r2/SOURCE_FUNCTION_MANIFEST.tsv",

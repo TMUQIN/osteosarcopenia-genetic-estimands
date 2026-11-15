@@ -1,6 +1,6 @@
 # R2 manifest composites — reduced public result release
 
-Local preparation: 2026-11-15, version 2.0.0-rc.1. Status: READY_FOR_R2_RELEASE for the selected code, synthetic examples, metadata and four result CSVs. No commit, push, tag, Release or DOI is created by local readiness.
+Local preparation: 2026-11-15, version 2.0.0. Status: READY_FOR_R2_RELEASE for the selected code, synthetic examples, metadata and four result CSVs. No commit, push, tag, Release or DOI is created by local readiness.
 
 Included R2 results: weight_grid.csv (450 rows), genetic_sd.csv (18), partial_rg.csv (4), alm_restrictions.csv (6). The complete composite.csv, bone_global.csv and bone_pairwise.csv are excluded, privately archived with unchanged hashes and recorded as EXCLUDED_PENDING_CLARIFICATION. This is not a complete public copy of the submission results.
 
