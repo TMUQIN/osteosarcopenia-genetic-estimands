@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/TMUQIN/osteosarcopenia-genetic-estimands",
+  "main": "0795a68f5b2b9a4cc914d516fffd89c535370617",
+  "tag_v1_0_0": "0795a68f5b2b9a4cc914d516fffd89c535370617",
+  "tag_type": "commit",
+  "tree": "f12492d848331d1bdfeb11f544c323c7133390b8",
+  "file_count": 37,
+  "remote_reads_only": true,
+  "branch": "r2-manifest-composites"
+}

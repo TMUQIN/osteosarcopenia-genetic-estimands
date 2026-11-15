@@ -1,0 +1,25 @@
+{
+  "status": "AUTHOR_SCOPED_PUBLICATION_AUTHORIZED",
+  "date": "2026-11-13",
+  "grantor": "Project participating author, self-described",
+  "scope": "Original project materials the user has the right to license",
+  "code_terms": "MIT",
+  "original_aggregate_terms": "CC-BY-4.0",
+  "original_supporting_terms": "CC-BY-4.0 individually enumerated",
+  "prior_blanket_no_author_permission_statement_superseded": true,
+  "other_authors_signatures_inferred": false,
+  "exclusive_ownership_inferred": false,
+  "specific_coowner_only_file_identified": false,
+  "approval_evidence_private": true,
+  "selected_scope_status": "AUTHORIZED_FOR_REDUCED_RELEASE",
+  "selection_date": "2026-11-15",
+  "public_R2_results": [
+    "weight_grid.csv",
+    "genetic_sd.csv",
+    "partial_rg.csv",
+    "alm_restrictions.csv"
+  ],
+  "excluded_results_status": "EXCLUDED_PENDING_CLARIFICATION",
+  "source_conditions_falsely_cleared": false,
+  "remaining_substantive_blockers": []
+}

@@ -1,0 +1,3 @@
+side	project_relative_path	sha256	S_shape	V_shape	redistributed
+right	JCSM_N_CORRECTION_V19V/03_ldsc/D/right/right_joint_8trait_ldsc.rds	3aed65688e8e08545a8674e22ca29e86d722380bae868342496de258b693d51b	8x8	36x36	False
+left	JCSM_N_CORRECTION_V19V/03_ldsc/D/left/left_joint_8trait_ldsc.rds	dacae310766fb97ae3ad6f7c8d91b9e8c23212cbc18fcfb52f62ac3f7f92f6a0	8x8	36x36	False

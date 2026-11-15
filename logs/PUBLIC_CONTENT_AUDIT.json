@@ -1,0 +1,10 @@
+{
+  "status": "PASS_CONTENT_EXCLUSION_SCAN",
+  "files_checked": 78,
+  "issues": [],
+  "scope": "All payload files; unchanged licensed baseline artwork allowed only by exact SHA256; new restricted data excluded",
+  "baseline_unchanged_files": 26,
+  "license_clearance": false,
+  "remote_v1_baseline_compared": true,
+  "limitations": "Pattern and artifact-type scan complements the explicit file inventory; it does not grant rights. The verified current candidate tree is checked, not every historical Git commit."
+}

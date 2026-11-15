@@ -1,0 +1,45 @@
+{
+  "status": "AUTHOR_DESIGNATED_V5_PROVIDED_AND_NUMERICALLY_VERIFIED",
+  "workbook_name": "Supplementary_Tables.xlsx",
+  "workbook_sha256": "783861e83479d4feb5a6cf07271c979df010ca6f9edc88f071c56073b17ebcf4",
+  "mapping_sha256": "a02d59b3f1d42f1fd0630088161572dd7b589b80a1f95cabe958438ff13c8602",
+  "sheet_count": 15,
+  "sheet_names": [
+    "INDEX",
+    "S1",
+    "S2",
+    "S3",
+    "S3b",
+    "S3c",
+    "S4",
+    "S5",
+    "S6a",
+    "S6b",
+    "S7",
+    "S8a",
+    "S8b Right",
+    "S8b Left",
+    "S8c"
+  ],
+  "received_via": "Private author handoff; copied byte-identically to the requested private author-input location outside clone",
+  "verified_date": "2026-11-13",
+  "original_validator_checks": 624,
+  "independent_component_checks": 798,
+  "failures": 0,
+  "scope": "All mapped quantitative result components in S2/S3/S3b/S3c/S4/S5 plus six ALM subset diagnostics in S7. Not all cells/inputs in 15 sheets; not upstream GWAS/LDSC or historical fixed/free global S7 tests.",
+  "workbook_distributed": false,
+  "public_release_authorization": "AUTHOR_SCOPED_GRANT;READY_FOR_REDUCED_SCOPE",
+  "current_public_CSVs": [
+    "weight_grid.csv",
+    "genetic_sd.csv",
+    "partial_rg.csv",
+    "alm_restrictions.csv"
+  ],
+  "current_public_prior_components": 546,
+  "excluded_CSVs": [
+    "data/derived_r2_candidate/composite.csv",
+    "data/derived_r2_candidate/bone_global.csv",
+    "data/derived_r2_candidate/bone_pairwise.csv"
+  ],
+  "scope_note": "Existing PASS describes prior full private audit; excluded study tables are not public. No audit rerun."
+}

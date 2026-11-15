@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript and the exact versioned repository release when available. This repository contains materials with file-specific licensing: the root MIT License applies only to the original source-code/model-syntax files listed in LICENSE_SCOPE.md. Derived datasets and artwork are governed separately; consult LICENSE_SCOPE.md and DATA_AVAILABILITY.md before reuse."
-title: "Lean-Mass Decomposition Reveals Divergent Genetic Correlation and Covariance Rankings"
+message: "Cite the exact version or commit used for the R2 manifest-composite implementation. Historical fixed-loading assets have separate provenance; consult the file-specific licenses."
+title: "Lean-Mass Decomposition Reveals Divergent Genetic Correlation and Covariance Rankings: R2 manifest composites"
 type: software
 authors:
   - family-names: Qin
@@ -23,11 +23,6 @@ authors:
     given-names: Junrui
   - family-names: Ning
     given-names: Guangzhi
-abstract: "Analysis code and selected derived materials supporting a study of phenotype decomposition and the interpretation of genetic correlation versus unstandardized genetic covariance across operational lean-mass phenotypes. This repository is a partial reproducibility release; it does not provide a one-command rerun of the full GWAS-to-LDSC-to-GenomicSEM pipeline. The MIT License applies only to the original source-code/model-syntax files enumerated in LICENSE_SCOPE.md."
-keywords:
-  - osteosarcopenia
-  - lean mass
-  - genetic correlation
-  - genetic covariance
-  - GenomicSEM
-  - body composition
+version: "2.0.0-rc.1"
+repository-code: "https://github.com/TMUQIN/osteosarcopenia-genetic-estimands"
+abstract: "Recovered downstream R2 manifest-composite functions, paired Delta inference with full V, bone W2/W3 tests, and weight/genetic-scale sensitivity. Study-number reproduction requires controlled frozen inputs. Historical fixed-loading assets are retained separately. File-specific licenses apply."

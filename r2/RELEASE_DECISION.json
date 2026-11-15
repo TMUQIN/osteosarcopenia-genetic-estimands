@@ -1,0 +1,47 @@
+{
+  "status": "READY_FOR_R2_RELEASE",
+  "publication_status": "LOCAL_READY_NOT_PUBLISHED",
+  "numerical_status": "PASS_V5_EXCEL_NUMERICAL_CLOSURE",
+  "author_authorization": "AUTHOR_SCOPED_PUBLICATION_AUTHORIZED",
+  "release_rights_status": "SELECTED_SCOPE_AUTHORIZED",
+  "remote_repository": "https://github.com/TMUQIN/osteosarcopenia-genetic-estimands",
+  "branch": "r2-manifest-composites",
+  "base_commit": "0795a68f5b2b9a4cc914d516fffd89c535370617",
+  "version": "2.0.0-rc.1",
+  "suggested_future_tag": "v2.0.0-rc.1",
+  "workbook_sha256": "783861e83479d4feb5a6cf07271c979df010ca6f9edc88f071c56073b17ebcf4",
+  "excel_mapped_components": 798,
+  "original_validator_scalar_cells": 624,
+  "prior_frozen_comparisons": 3466,
+  "prior_independent_R_comparisons": 940,
+  "numerical_audit_repeated": false,
+  "prior_numeric_evidence_hash_bound": true,
+  "blockers": [],
+  "no_specific_coowner_only_restriction_established": true,
+  "user_grant_not_exclusive_ownership_claim": true,
+  "commit_created": false,
+  "push_performed": false,
+  "PR_created": false,
+  "Release_created": false,
+  "tag_created": false,
+  "DOI_created": false,
+  "upstream_FN_LS_is_nc": {
+    "ieu_a_980": 1,
+    "ieu_a_982": 1
+  },
+  "decision_date": "2026-11-15",
+  "public_result_files": [
+    "weight_grid.csv",
+    "genetic_sd.csv",
+    "partial_rg.csv",
+    "alm_restrictions.csv"
+  ],
+  "excluded_result_files": [
+    "data/derived_r2_candidate/composite.csv",
+    "data/derived_r2_candidate/bone_global.csv",
+    "data/derived_r2_candidate/bone_pairwise.csv"
+  ],
+  "excluded_result_status": "EXCLUDED_PENDING_CLARIFICATION",
+  "source_question_resolved": false,
+  "public_retained_prior_V5_components": 546
+}

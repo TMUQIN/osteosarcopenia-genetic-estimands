@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "adapters_version": "2.0.0-rc.1",
+  "release_status": "READY_FOR_R2_RELEASE",
+  "R_versions": "logs/R_VERSIONS.txt",
+  "original_function_identity": "r2/SOURCE_FUNCTION_MANIFEST.tsv",
+  "base_commit": "0795a68f5b2b9a4cc914d516fffd89c535370617",
+  "repository_clone_verified": true
+}

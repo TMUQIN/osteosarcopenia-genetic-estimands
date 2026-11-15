@@ -1,0 +1,29 @@
+{
+  "status": "PASS_LOCAL_FROZEN_REFERENCE_CHECK_ONLY",
+  "numeric_comparisons": 3466,
+  "failed": 0,
+  "tolerances": {
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "basis": "Existing R2 closure comparison criterion; no target adjustment"
+  },
+  "submitted_15_sheet_excel_verified": true,
+  "families": {
+    "equal_composite": 544,
+    "bone_global_W2_W3": 24,
+    "bone_pairwise": 48,
+    "genetic_sd": 108,
+    "partial_rg": 24,
+    "all_25x2_grid": 2700,
+    "ALM_subset_Wald": 18
+  },
+  "independent_R_rows": 470,
+  "independent_R_numeric_comparisons": 940,
+  "independent_R_tolerance": {
+    "rtol": 1e-08,
+    "atol": 1e-11,
+    "basis": "Independent Richardson finite-difference check, distinct from exact source-function comparison"
+  },
+  "current_excel_scope": "See EXCEL_VALIDATION.json; frozen-reference check alone is a distinct audit",
+  "numeric_audit_repeated_in_finalization": false
+}

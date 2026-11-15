@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "verification_date": "2026-11-15",
+  "synthetic_tests": 9,
+  "synthetic_end_to_end": "PASS",
+  "historical_content": "PASS",
+  "repository_inventory": "PASS_AFTER_MANIFEST_REBUILD",
+  "restricted_content_scan": "PASS",
+  "license_file_scope_enumerated": true,
+  "private_audits_excluded": true,
+  "prior_numeric_evidence_hash_bound": true,
+  "numerical_audit_repeated": false,
+  "real_data_model_calls": 0,
+  "protected_historical_files": 21,
+  "protected_historical_hashes_equal": true,
+  "public_release_status": "READY_FOR_REDUCED_SCOPE",
+  "note": "FN/LS issue is EXCLUDED_PENDING_CLARIFICATION for three absent full tables; all scientific code/tests unchanged.",
+  "release_status": "READY_FOR_R2_RELEASE"
+}

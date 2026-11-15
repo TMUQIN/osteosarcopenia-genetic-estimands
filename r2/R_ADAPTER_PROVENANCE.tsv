@@ -1,0 +1,2 @@
+source_project_relative	source_sha256	public_file	public_sha256	changes
+JCSM_R2_FINAL_EVIDENCE_CLOSURE/R2_VERIFY_GRID_INDEPENDENT.R	d99956bc4810f406c7b5b51e04a6967bc406fb3855548b084f680ebe547039c1	code/r2/verify_r2_independent.R	9fecb072c3c66cb52f22c85f36a4b7dfd93ee934c5b1d861795f25fa04951940	Only CLI input/output paths adapted; numerical code unchanged; public source normalized to LF

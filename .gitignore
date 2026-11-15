@@ -21,3 +21,19 @@ __pycache__/
 .env.*
 archive/
 reviewer_only/
+# New local-only R2 outputs and private author inputs
+local_*_output/
+local_reference_validation/
+author_inputs/
+*.sqlite
+
+private_audit/
+private_review/
+rights_approval/
+*.xlsx
+*.zip
+
+# Complete study result tables excluded from this public selection
+/data/derived_r2_candidate/composite.csv
+/data/derived_r2_candidate/bone_global.csv
+/data/derived_r2_candidate/bone_pairwise.csv
